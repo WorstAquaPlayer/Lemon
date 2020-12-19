@@ -1,0 +1,441 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Lemon/Lemon/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "PY0S/Mkpdos+ChBJKfqpNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "97GztLCfxjxCSIGhNxkG3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.ContainerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.ContainerManager.html",
+          "hash": "L+oxK9dQCtiE54TdiFw19A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncch.html",
+          "hash": "yGgw8t3aMDufZbQTyc/SgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncsd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncsd.html",
+          "hash": "1Eq8v9+rihudYim0/OD0Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryCia2NodeContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryCia2NodeContainer.html",
+          "hash": "OoxqXXP7ve1luL8QbsbYQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryExeFs2NodeContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryExeFs2NodeContainer.html",
+          "hash": "s2hoMWY6EUeIZJM0VD6W2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryIvfc2NodeContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryIvfc2NodeContainer.html",
+          "hash": "8Zxv3B8nc6ez8wMGIUe8CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc.html",
+          "hash": "wt4Im+xGb/jQfOkn+olZ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.html",
+          "hash": "gDLwSZOicXFBOv6bYWPB4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.FirmwareType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.FirmwareType.html",
+          "hash": "1Bl/BQYKjSzeGatAEilxCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncch.html",
+          "hash": "wQGHqD+tbjtmFQZzu/PKAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.NcchHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.NcchHeader.html",
+          "hash": "NEEQ3SOyij+0KFX4fBKHFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncsd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncsd.html",
+          "hash": "IlHQb22g7BKPSQ75Cuh7eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.NcsdHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.NcsdHeader.html",
+          "hash": "RErwVP3VbY6l8O0SJQgMbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Formats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Formats.html",
+          "hash": "EUqCbyAUoNCqY800PnwA7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.html",
+          "hash": "a8w6Y2aBLgfDdNIas1cgvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Titles.Binary2TitleMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Titles.Binary2TitleMetadata.html",
+          "hash": "Jhwd+APQ58fQKPjmXAgKBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Titles.ContentAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Titles.ContentAttributes.html",
+          "hash": "6ielkt4LF0wzb1PFRPeB7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Titles.ContentChunkRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Titles.ContentChunkRecord.html",
+          "hash": "1m0jG/ZktMTb2sKY/5qO0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Titles.TitleMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Titles.TitleMetadata.html",
+          "hash": "6opLztw68LK5dNSrg6vMig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Titles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Titles.html",
+          "hash": "A/Y7NYCt7et3FoupwmqFUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "dev/Changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/Changelog.html",
+          "hash": "/9WdQvXR9vb16xcwiZyObw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "dev/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "dev/toc.html",
+          "hash": "qkaKL5a9f+Ym3cRlABJSPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Contributing.html",
+          "hash": "PN6SMrw4N3LNuRsk6q/J5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "Gz03qLKyhGDwcGqENx1d0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-128.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-48.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-48.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ulmGOHA8+23qLRMiElfGBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "DE1eFNcz9G3IJPedS9NvHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

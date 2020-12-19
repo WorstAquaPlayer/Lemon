@@ -1,0 +1,766 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TitleMetadata
+   | Yarhl plugin for Nintendo 3DS common formats </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TitleMetadata
+   | Yarhl plugin for Nintendo 3DS common formats ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../dev/toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo-48.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Contributing.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="../dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Lemon" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="../dev/Changelog.html" title="Changelog" class="">Changelog</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">API</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/SceneGate.Lemon.Containers.html" title="SceneGate.Lemon.Containers" class="">SceneGate.Lemon.Containers</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.ContainerManager.html" title="ContainerManager" class="">ContainerManager</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.html" title="SceneGate.Lemon.Containers.Converters" class="">SceneGate.Lemon.Containers.Converters</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.Binary2Ncch.html" title="Binary2Ncch" class="">Binary2Ncch</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.Binary2Ncsd.html" title="Binary2Ncsd" class="">Binary2Ncsd</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.BinaryCia2NodeContainer.html" title="BinaryCia2NodeContainer" class="">BinaryCia2NodeContainer</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.BinaryExeFs2NodeContainer.html" title="BinaryExeFs2NodeContainer" class="">BinaryExeFs2NodeContainer</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.BinaryIvfc2NodeContainer.html" title="BinaryIvfc2NodeContainer" class="">BinaryIvfc2NodeContainer</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc.html" title="NodeContainer2BinaryIvfc" class="">NodeContainer2BinaryIvfc</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.html" title="SceneGate.Lemon.Containers.Formats" class="">SceneGate.Lemon.Containers.Formats</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.FirmwareType.html" title="FirmwareType" class="">FirmwareType</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.Ncch.html" title="Ncch" class="">Ncch</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.NcchHeader.html" title="NcchHeader" class="">NcchHeader</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.Ncsd.html" title="Ncsd" class="">Ncsd</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Containers.Formats.NcsdHeader.html" title="NcsdHeader" class="">NcsdHeader</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/SceneGate.Lemon.Titles.html" title="SceneGate.Lemon.Titles" class="">SceneGate.Lemon.Titles</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Titles.Binary2TitleMetadata.html" title="Binary2TitleMetadata" class="">Binary2TitleMetadata</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Titles.ContentAttributes.html" title="ContentAttributes" class="">ContentAttributes</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Titles.ContentChunkRecord.html" title="ContentChunkRecord" class="">ContentChunkRecord</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/SceneGate.Lemon.Titles.TitleMetadata.html" title="TitleMetadata" class="">TitleMetadata</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SceneGate.Lemon.Titles.TitleMetadata">
+  
+  
+  <h1 id="SceneGate_Lemon_Titles_TitleMetadata" data-uid="SceneGate.Lemon.Titles.TitleMetadata" class="text-break">Class TitleMetadata
+  </h1>
+  <div class="markdown level0 summary"><p>E-shop title metadata.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">TitleMetadata</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SceneGate.Lemon.Titles.html">SceneGate.Lemon.Titles</a></h6>
+  <h6><strong>Assembly</strong>: SceneGate.Lemon.dll</h6>
+  <h5 id="SceneGate_Lemon_Titles_TitleMetadata_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TitleMetadata : IFormat</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata__ctor.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L33">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata__ctor_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.#ctor*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata__ctor" data-uid="SceneGate.Lemon.Titles.TitleMetadata.#ctor">TitleMetadata()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SceneGate.Lemon.Titles.TitleMetadata.html">TitleMetadata</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TitleMetadata()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_AccessRights.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.AccessRights%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L102">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_AccessRights_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.AccessRights*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_AccessRights" data-uid="SceneGate.Lemon.Titles.TitleMetadata.AccessRights">AccessRights</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the access rights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AccessRights { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_BootContent.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.BootContent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L112">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_BootContent_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.BootContent*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_BootContent" data-uid="SceneGate.Lemon.Titles.TitleMetadata.BootContent">BootContent</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the index of the bootable content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BootContent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_CaCrlVersion.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.CaCrlVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L57">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_CaCrlVersion_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.CaCrlVersion*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_CaCrlVersion" data-uid="SceneGate.Lemon.Titles.TitleMetadata.CaCrlVersion">CaCrlVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the version of the CA CRL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte CaCrlVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_Chunks.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.Chunks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L117">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_Chunks_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.Chunks*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_Chunks" data-uid="SceneGate.Lemon.Titles.TitleMetadata.Chunks">Chunks</h4>
+  <div class="markdown level1 summary"><p>Gets a collection of content chunks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;ContentChunkRecord&gt; Chunks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collection</span>&lt;<a class="xref" href="SceneGate.Lemon.Titles.ContentChunkRecord.html">ContentChunkRecord</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_GroupId.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.GroupId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L82">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_GroupId_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.GroupId*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_GroupId" data-uid="SceneGate.Lemon.Titles.TitleMetadata.GroupId">GroupId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ID of the group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short GroupId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SaveSize.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SaveSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L87">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SaveSize_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SaveSize*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SaveSize" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SaveSize">SaveSize</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the size of the save file data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SaveSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SignatureIssuer.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SignatureIssuer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L47">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SignatureIssuer_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SignatureIssuer*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SignatureIssuer" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SignatureIssuer">SignatureIssuer</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the signature issuer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SignatureIssuer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SignerCrlVersion.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SignerCrlVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L62">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SignerCrlVersion_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SignerCrlVersion*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SignerCrlVersion" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SignerCrlVersion">SignerCrlVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the version of the signer CRL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte SignerCrlVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SrlFlag.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SrlFlag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L97">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SrlFlag_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SrlFlag*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SrlFlag" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SrlFlag">SrlFlag</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the SRL (DSi) flags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte SrlFlag { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SrlPrivateSaveSize.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SrlPrivateSaveSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L92">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SrlPrivateSaveSize_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SrlPrivateSaveSize*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SrlPrivateSaveSize" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SrlPrivateSaveSize">SrlPrivateSaveSize</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the size of the private data of a SRL (DSi) save file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SrlPrivateSaveSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_SystemVersion.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.SystemVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L67">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_SystemVersion_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SystemVersion*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_SystemVersion" data-uid="SceneGate.Lemon.Titles.TitleMetadata.SystemVersion">SystemVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the system's version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long SystemVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_TitleId.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.TitleId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L72">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_TitleId_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleId*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_TitleId" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleId">TitleId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ID of the title.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TitleId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_TitleType.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.TitleType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L77">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_TitleType_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleType*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_TitleType" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleType">TitleType</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the type of title.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TitleType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_TitleVersion.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.TitleVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L107">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_TitleVersion_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleVersion*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_TitleVersion" data-uid="SceneGate.Lemon.Titles.TitleMetadata.TitleVersion">TitleVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the version of the title.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short TitleVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_ValidSignature.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.ValidSignature%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L42">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_ValidSignature_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.ValidSignature*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_ValidSignature" data-uid="SceneGate.Lemon.Titles.TitleMetadata.ValidSignature">ValidSignature</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the title metadata has a
+valid signature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ValidSignature { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata_Version.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L52">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Titles_TitleMetadata_Version_" data-uid="SceneGate.Lemon.Titles.TitleMetadata.Version*"></a>
+  <h4 id="SceneGate_Lemon_Titles_TitleMetadata_Version" data-uid="SceneGate.Lemon.Titles.TitleMetadata.Version">Version</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the version of the title metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte Version { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Titles_TitleMetadata.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Titles.TitleMetadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Titles/TitleMetadata.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 2019 SceneGate
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
