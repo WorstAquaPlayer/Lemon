@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace SceneGate.Lemon.Containers
+    <title>Class NodeContainer2BinaryCia
    | Yarhl plugin for Nintendo 3DS common formats </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace SceneGate.Lemon.Containers
+    <meta name="title" content="Class NodeContainer2BinaryCia
    | Yarhl plugin for Nintendo 3DS common formats ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -188,18 +188,129 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SceneGate.Lemon.Containers">
+            <article class="content wrap" id="_content" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia">
   
-  <h1 id="SceneGate_Lemon_Containers" data-uid="SceneGate.Lemon.Containers" class="text-break">Namespace SceneGate.Lemon.Containers
+  
+  <h1 id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia" class="text-break">Class NodeContainer2BinaryCia
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Convert a NodeContainer with CIA sections into binary format.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">NodeContainer2BinaryCia</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IInitializer</span>&lt;<span class="xref">DataStream</span>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SceneGate.Lemon.Containers.Converters.html">SceneGate.Lemon.Containers.Converters</a></h6>
+  <h6><strong>Assembly</strong>: SceneGate.Lemon.dll</h6>
+  <h5 id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NodeContainer2BinaryCia : IConverter&lt;NodeContainerFormat, BinaryFormat&gt;, IInitializer&lt;DataStream&gt;</code></pre>
+  </div>
+  <h5 id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The initialization is optional. If no stream is provided, a new one
+will be created on memory. This may consume large RAM memory for big games.</p>
+<p>This converter expects to have a node with the following binary
+children: certs_chain, ticket, title (TMD), content/program,
+content/manual (optional), content/download_play (optional).</p>
+<p>This converter expects to receive consistent nodes. This means it expected
+that the TMD already has the updated chunks of the content and that the
+metadata match the exHeader and ExeFS info.</p>
+</div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="SceneGate.Lemon.Containers.ContainerManager.html">ContainerManager</a></h4>
-      <section><p>Manage containers for 3DS formats.</p>
-</section>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Convert_NodeContainerFormat_.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert(NodeContainerFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Containers/Converters/NodeContainer2BinaryCia.cs/#L67">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Convert_" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert*"></a>
+  <h4 id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Convert_NodeContainerFormat_" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert(NodeContainerFormat)">Convert(NodeContainerFormat)</h4>
+  <div class="markdown level1 summary"><p>Converts a container into a binary CIA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BinaryFormat Convert(NodeContainerFormat source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NodeContainerFormat</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The container with the CIA files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BinaryFormat</span></td>
+        <td><p>The new binary format with the CIA.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Initialize_DataStream_.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize(DataStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Containers/Converters/NodeContainer2BinaryCia.cs/#L57">View Source</a>
+  </span>
+  <a id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Initialize_" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize*"></a>
+  <h4 id="SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Initialize_DataStream_" data-uid="SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize(DataStream)">Initialize(DataStream)</h4>
+  <div class="markdown level1 summary"><p>Initializes the converter with the output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(DataStream parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DataStream</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The stream to write the new CIA.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IInitializer&lt;&gt;</span>
+  </div>
 </article>
           </div>
           
@@ -207,6 +318,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Lemon/new/develop/docs/apidoc/new?filename=SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia.md&amp;value=---%0Auid%3A%20SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/SceneGate/Lemon/blob/develop/src/Lemon/Containers/Converters/NodeContainer2BinaryCia.cs/#L41" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

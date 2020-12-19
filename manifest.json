@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "97GztLCfxjxCSIGhNxkG3w=="
+          "hash": "FRpG9Si5XFu58hKYMNIV3g=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.ContainerManager.html",
-          "hash": "L+oxK9dQCtiE54TdiFw19A=="
+          "hash": "oBfs69lt9e9u3MXYH064WQ=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncch.html",
-          "hash": "yGgw8t3aMDufZbQTyc/SgQ=="
+          "hash": "CXy0DlybVaHY46eeouo/Fg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.Binary2Ncsd.html",
-          "hash": "1Eq8v9+rihudYim0/OD0Og=="
+          "hash": "8CXO1y2eda5N7DcQnAIF3A=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryCia2NodeContainer.html",
-          "hash": "OoxqXXP7ve1luL8QbsbYQA=="
+          "hash": "FqeyGiW2S5q9mf6rzusPHA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryExeFs2NodeContainer.html",
-          "hash": "s2hoMWY6EUeIZJM0VD6W2w=="
+          "hash": "zjw5CnSEMGkNEt7oIovvGQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,19 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.BinaryIvfc2NodeContainer.html",
-          "hash": "8Zxv3B8nc6ez8wMGIUe8CA=="
+          "hash": "1srY8taIwNTAPO73PtbVUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html",
+          "hash": "bfUNGlABYwQ3himHK9dBqQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc.html",
-          "hash": "wt4Im+xGb/jQfOkn+olZ8g=="
+          "hash": "6J7iQcv5l/vZglg+qVjQag=="
         }
       },
       "is_incremental": false,
@@ -126,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Converters.html",
-          "hash": "gDLwSZOicXFBOv6bYWPB4A=="
+          "hash": "GXG9eWA+tTtbBql+d+gfPA=="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.FirmwareType.html",
-          "hash": "1Bl/BQYKjSzeGatAEilxCg=="
+          "hash": "KPhoLGMvQXD5ddUtuNOTug=="
         }
       },
       "is_incremental": false,
@@ -150,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncch.html",
-          "hash": "wQGHqD+tbjtmFQZzu/PKAg=="
+          "hash": "/KLyoE53bSNLlwIRLXqJXg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.NcchHeader.html",
-          "hash": "NEEQ3SOyij+0KFX4fBKHFA=="
+          "hash": "9+xf/ukXousFjHYOoSWVbA=="
         }
       },
       "is_incremental": false,
@@ -174,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.Ncsd.html",
-          "hash": "IlHQb22g7BKPSQ75Cuh7eQ=="
+          "hash": "dfXvB3hKMeI2PcNAajeD5w=="
         }
       },
       "is_incremental": false,
@@ -186,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.NcsdHeader.html",
-          "hash": "RErwVP3VbY6l8O0SJQgMbg=="
+          "hash": "SimTrxi7bogBwxQkOY2BhA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.Formats.html",
-          "hash": "EUqCbyAUoNCqY800PnwA7Q=="
+          "hash": "gLt6Gr3IXPXRzOZriI90vQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Containers.html",
-          "hash": "a8w6Y2aBLgfDdNIas1cgvw=="
+          "hash": "baY8iCXhyZsJjh3t+tDtqg=="
         }
       },
       "is_incremental": false,
@@ -222,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Titles.Binary2TitleMetadata.html",
-          "hash": "Jhwd+APQ58fQKPjmXAgKBQ=="
+          "hash": "FpzFpaeJ/zvsc5TXR+7Zvg=="
         }
       },
       "is_incremental": false,
@@ -234,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Titles.ContentAttributes.html",
-          "hash": "6ielkt4LF0wzb1PFRPeB7g=="
+          "hash": "ZPvux1y2sPN9QAk4OJI3oQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Titles.ContentChunkRecord.html",
-          "hash": "1m0jG/ZktMTb2sKY/5qO0Q=="
+          "hash": "MqozutlnvHX/Sqy25RcVSg=="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Titles.TitleMetadata.html",
-          "hash": "6opLztw68LK5dNSrg6vMig=="
+          "hash": "IwfHz/0dfLXTvcth0u/lwA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SceneGate.Lemon.Titles.html",
-          "hash": "A/Y7NYCt7et3FoupwmqFUg=="
+          "hash": "EqVQ08fIAErn4lLnYC+LFQ=="
         }
       },
       "is_incremental": false,
@@ -282,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Changelog.html",
-          "hash": "/9WdQvXR9vb16xcwiZyObw=="
+          "hash": "Kb82pJTexhmOsgWfYo2Z3w=="
         }
       },
       "is_incremental": false,
@@ -294,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/toc.html",
-          "hash": "qkaKL5a9f+Ym3cRlABJSPg=="
+          "hash": "vSofitIq50REFRCpNdzaEQ=="
         }
       },
       "is_incremental": false,
@@ -363,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ulmGOHA8+23qLRMiElfGBw=="
+          "hash": "H38RHB/xVYT/qLe7/lfvoA=="
         }
       },
       "is_incremental": false,
@@ -402,7 +414,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 20,
+          "total_file_count": 21,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

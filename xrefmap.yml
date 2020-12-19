@@ -178,6 +178,38 @@ references:
   isSpec: "True"
   fullName: SceneGate.Lemon.Containers.Converters.BinaryIvfc2NodeContainer.SupportedVersion
   nameWithType: BinaryIvfc2NodeContainer.SupportedVersion
+- uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia
+  name: NodeContainer2BinaryCia
+  href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html
+  commentId: T:SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia
+  fullName: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia
+  nameWithType: NodeContainer2BinaryCia
+- uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert(NodeContainerFormat)
+  name: Convert(NodeContainerFormat)
+  href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html#SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Convert_NodeContainerFormat_
+  commentId: M:SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert(NodeContainerFormat)
+  fullName: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert(NodeContainerFormat)
+  nameWithType: NodeContainer2BinaryCia.Convert(NodeContainerFormat)
+- uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert*
+  name: Convert
+  href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html#SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Convert_
+  commentId: Overload:SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert
+  isSpec: "True"
+  fullName: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Convert
+  nameWithType: NodeContainer2BinaryCia.Convert
+- uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize(DataStream)
+  name: Initialize(DataStream)
+  href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html#SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Initialize_DataStream_
+  commentId: M:SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize(DataStream)
+  fullName: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize(DataStream)
+  nameWithType: NodeContainer2BinaryCia.Initialize(DataStream)
+- uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize*
+  name: Initialize
+  href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.html#SceneGate_Lemon_Containers_Converters_NodeContainer2BinaryCia_Initialize_
+  commentId: Overload:SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize
+  isSpec: "True"
+  fullName: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryCia.Initialize
+  nameWithType: NodeContainer2BinaryCia.Initialize
 - uid: SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc
   name: NodeContainer2BinaryIvfc
   href: api/SceneGate.Lemon.Containers.Converters.NodeContainer2BinaryIvfc.html
