@@ -112,7 +112,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (December 19, 2020) | Yarhl plugin for Nintendo 3DS common formats",
-    "keywords": "vNext (December 19, 2020) As part of this release we had 6 issues closed. Enhancements #6 Implement CIA packing #5 Upgrade build system, port .NET 5 and change namespace #4 Unpack the extended header and access descriptor from the NCCH #3 Implement CIA unpacker and TMD deserializer #1 Change license to MIT"
+    "keywords": "vNext (December 19, 2020) As part of this release we had 7 issues closed. Enhancements #6 Implement CIA packing #5 Upgrade build system, port .NET 5 and change namespace #4 Unpack the extended header and access descriptor from the NCCH #3 Implement CIA unpacker and TMD deserializer #1 Change license to MIT"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
